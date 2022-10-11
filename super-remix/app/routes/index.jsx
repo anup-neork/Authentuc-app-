@@ -67,7 +67,7 @@ export const loader = async ({ request }) => {
   }
 };
 
-const Index = () => {
+const IndexData = () => {
   const data = useLoaderData();
   return (
     <Layout showSignOut={true}>
